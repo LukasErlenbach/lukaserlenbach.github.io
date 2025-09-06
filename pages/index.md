@@ -11,7 +11,7 @@ slug: index
 &nbsp;
 
 ### ༄
-s
+
 &nbsp;
 :::
 :::
