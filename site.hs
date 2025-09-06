@@ -45,13 +45,13 @@ main = hakyllWith config $ do
 -- normal site context
 siteCtx :: Context String
 siteCtx =
-  constField "site_description"  "benedikt mayer | portfolio"
-    <> constField "site_title"        "benedikt mayer | portfolio"
-    <> constField "github_username"   "benedikt-mayer"
-    <> constField "linkedin_username" "benedikt-mayer-7ab235132"
-    <> constField "email_username"    "benedikt_mayer"
-    <> constField "email_domain"      "outlook"
-    <> constField "email_tld"         "de"
+  constField "site_description"  "lukas erlenbach | portfolio"
+    <> constField "site_title"        "lukas erlenbach | portfolio"
+    <> constField "github_username"   "LukasErlenbach"
+    <> constField "linkedin_username" "lukas-erlenbach"
+    <> constField "email_username"    "lukaserlenbach"
+    <> constField "email_domain"      "gmail"
+    <> constField "email_tld"         "com"
     <> defaultContext
 
 -- configuration for display
