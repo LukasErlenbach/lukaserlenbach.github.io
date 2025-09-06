@@ -2,12 +2,12 @@ name:                WhoNeedsFrameworks-hakyll
 version:             0.2.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/benedikt-mayer/benedikt-mayer.github.io
+homepage:            https://github.com/LukasErlenbach/lukas-erlenbach.github.io
 license:             BSD3
 license-file:        LICENSE
-author:              Benedikt Mayer
-maintainer:          benedikt_mayer@outlook.de
-copyright:           2019 Benedikt Mayer
+author:              Lukas Erlenbach
+maintainer:          lukaserlenbach@gmail.de
+copyright:           2025 Lukas Erlenbach
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
