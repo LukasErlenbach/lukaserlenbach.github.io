@@ -7,5 +7,6 @@ It works completely without any CSS or JavaScript frameworks while retaining res
 For installation instructions visit [CleanMagicMedium-Hakyll](https://github.com/katychuang/CleanMagic-hakyll).
 
 Install hakyll `curl -sSL https://get.haskellstack.org/ | sh`.
+
 To publish the page, run `bash publish.sh` from the `hakyll` branch.  
 To test locally, run `stack run watch`.  
