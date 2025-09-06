@@ -33,7 +33,7 @@ Feel free to contact me at
 
 :::
 ::: image
-![Portrait](../static/img/portrait.jpg){class="portrait"} \
+![Portrait](../static/img/portrait_le.jpg){class="portrait"} \
 :::
 :::
 :::
