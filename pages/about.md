@@ -7,7 +7,7 @@ slug: about
 ::: paragraph
 ::: text
 
-I'm a human.
+Hi.
 
 &nbsp;
  
