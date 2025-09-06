@@ -15,7 +15,7 @@ I'm based in Berlin.
 
 &nbsp;
 
-I'm working as GenAI Lead Consultant for [b.telligent](https://www.linkedin.com/in/lukas-erlenbach).
+I'm working as GenAI Lead Consultant at [b.telligent](https://www.linkedin.com/in/lukas-erlenbach).
 
 &nbsp;
 
