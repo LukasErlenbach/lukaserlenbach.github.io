@@ -1,16 +1,16 @@
 ---
-title: Hi!
+title: Welcome!
 gallery: True
 slug: index
 ---
 
 ::: gallery-header-wrapper
 ::: gallery-header
-## I'm Benedikt, a Machine Learning Engineer based in Munich.
+## I'm Lukas - a Mathematician consulting in AI & Gestalttherapy.
 
 &nbsp;
 
-### Articles and projects
+### More to come ...
 
 &nbsp;
 :::
