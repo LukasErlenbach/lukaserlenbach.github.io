@@ -11,11 +11,19 @@ Willkommen.
 
 &nbsp;
  
-Fragst du dich, wohin dich deine Reise führt? Spürst du, dass du in deinem Leben etwas verändern möchtest – und bist unsicher, wie? Ich habe gute Nachricht: Du musst es nicht alleine herausfinden.
+Fragst du dich, wohin dich deine Reise führt? Spürst du, dass du in deinem Leben etwas verändern möchtest – und bist unsicher, wie? Ich habe eine gute Nachricht: Du musst es nicht alleine herausfinden.
 
 &nbsp;
 
-Ich biete dir an, dich mit Präsens, Ehrlichkeit und Humor zu begleiten. In einem gehaltenen Rahmen kannst du Neues ausprobieren, aussprechen, was dich bewegt und fühlen, was da ist. Als Mathematiker, KI-Berater und Lebenskünstler mit offenem Herzen habe ich gelernt, Struktur mit Flow, Planung mit Vertrauen und Kopf mit Herz und Bauch zu verbinden.
+Ich biete dir an, dich mit Präsenz, Ehrlichkeit und Humor zu begleiten. 
+
+&nbsp;
+
+In einem gehaltenen Rahmen kannst du Neues ausprobieren, aussprechen, was dich bewegt und fühlen, was da ist. 
+
+&nbsp;
+
+Als Mathematiker, KI-Berater und Lebenskünstler mit offenem Herzen habe ich gelernt, Struktur mit Flow, Planung mit Vertrauen und Kopf mit Herz und Bauch zu verbinden.
 
 &nbsp;
 
