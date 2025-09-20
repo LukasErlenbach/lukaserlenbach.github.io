@@ -11,7 +11,7 @@ Hi.
 
 &nbsp;
  
-I'm based in Berlin.
+I'm currently based in Berlin and enjoy slowing down, gymnastics and juicy human contact.
 
 &nbsp;
 
@@ -23,7 +23,7 @@ I'm training in Gestalttherapy with [Irgendwie Anders](https://irgendwie-anders.
 
 &nbsp;
 
-Feel free to contact me at
+Contact me:  
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
    data-domain="$email_domain$"
