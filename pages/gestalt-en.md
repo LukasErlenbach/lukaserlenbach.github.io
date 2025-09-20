@@ -52,7 +52,7 @@ Feel free to write me and get to know me:
 
 
 ::: blockquote
-> *"Veränderungen finden von allein statt. Wenn wir tiefer in das eindringen, was wir sind, wenn wir akzeptieren, was da ist, kommen die Veränderungen von allein."*
+> *"Change happens by itself. When we go deeper into what we are, when we accept what is, change comes on its own."*  
 
 > — Fritz Perls
 :::
