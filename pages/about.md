@@ -27,8 +27,6 @@ I am a Gestalt therapist in training at  [Irgendwie Anders](https://irgendwie-an
 
 &nbsp;
 
-https://drive.google.com/file/d/1BfNFSsf-Zp-M1TdQ8MCG4j9v8-Vw7xXq/view?usp=sharing
-
 Contact me:
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
