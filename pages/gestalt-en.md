@@ -51,11 +51,9 @@ Feel free to write me and get to know me:
 &nbsp;
 
 
-::: blockquote
 > *"Change happens by itself. When we go deeper into what we are, when we accept what is, change comes on its own."*  
 
 > — Fritz Perls
-:::
 
 
 :::

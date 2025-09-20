@@ -47,11 +47,9 @@ Schreib mir und lern mich kennen:
 &nbsp;
 
 
-::: blockquote
 > *"Veränderungen finden von allein statt. Wenn wir tiefer in das eindringen, was wir sind, wenn wir akzeptieren, was da ist, kommen die Veränderungen von allein."*
 
 > — Fritz Perls
-:::
 
 
 :::
