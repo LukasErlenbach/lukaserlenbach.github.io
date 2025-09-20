@@ -11,21 +11,23 @@ Hi.
 
 &nbsp;
  
-I'm currently based in Berlin.
+I am based in Berlin - Kreuzkölln.
 
 &nbsp;
 
-I'm enjoying gymnastics, slowing down and juicy human contact.
+I am currently enjoying gymnastic rings, slowing down and juicy human contact.
 
 &nbsp;
 
-I'm working as GenAI Lead Consultant at [b.telligent](https://www.linkedin.com/in/lukas-erlenbach).
+I am the GenAI Lead Consultant at [b.telligent](https://www.linkedin.com/in/lukas-erlenbach).
 
 &nbsp;
 
-I'm training in Gestalttherapy with [Irgendwie Anders](https://irgendwie-anders.de/).
+I am a Gestalt therapist in training at  [Irgendwie Anders](https://irgendwie-anders.de/).
 
 &nbsp;
+
+https://drive.google.com/file/d/1BfNFSsf-Zp-M1TdQ8MCG4j9v8-Vw7xXq/view?usp=sharing
 
 Contact me:
 <a href="mailto:" class="crypted-mail"
