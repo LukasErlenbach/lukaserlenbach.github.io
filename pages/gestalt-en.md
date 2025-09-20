@@ -23,7 +23,7 @@ Gestalt therapy is not about finding quick solutions, but about becoming aware o
 For me, as a mathematician, ultrarunner and AI-consultant, Gestalt has become essential in connecting structure with flow, control with trust, and head with heart, belly and pelvis – allowing me to feel fully alive.
 
 &nbsp;
- 
+
 If you wish for change in your life and are willing to take the effort to get to know yourself more deeply, I will gladly accompany you with honesty and genuine curiosity.
 
 &nbsp;
