@@ -24,7 +24,7 @@ For me, as a mathematician, ultrarunner and AI-consultant, Gestalt has become es
 
 &nbsp;
 
-If you wish for change in your life and are willing to take the effort to get to know yourself more deeply, I will gladly accompany you with honesty and genuine curiosity.
+If you wish for positive change in your life, perhaps feel overwhelmed by your options, or are simply exhausted from searching for improvement, I will gladly accompany you with honesty and genuine curiosity. It's worth the effort getting to know yourself better.
 
 &nbsp;
  
@@ -38,7 +38,7 @@ I am a Gestalt therapist in training at [Irgendwie Anders](https://irgendwie-and
 
 &nbsp;
 
-Feel free to write me and get to know me: 
+I am currently offering 1o1 sessions remotely and in Berlin free of charge. Write to me and get to know me:  
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
    data-domain="$email_domain$"

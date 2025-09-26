@@ -22,7 +22,7 @@ Für mich als Mathematiker, Ultraläufer und Unternehmensberater ist Gestalt ess
 
 &nbsp;
 
-Falls du dir Veränderung in deinem Leben wünschst und dir die Mühe machen möchtest, dich selbst besser kennenzulernen, begleite ich dich gerne mit Ehrlichkeit und aufrichtiger Neugier. 
+Falls du dir positive Veränderung in deinem Leben wünschst, vielleicht von deinen Optionen überfordert oder einfach erschöpft von der Suche nach Besserung bist, dann begleite ich dich gerne mit Ehrlichkeit und aufrichtiger Neugier. Es lohnt sich, dich selbst besser kennenzulernen.
 
 &nbsp;
 
@@ -34,7 +34,7 @@ Ich bin Gestalttherapeut in Ausbildung bei [Irgendwie Anders](https://irgendwie-
 
 &nbsp;
 
-Schreib mir und lern mich kennen: 
+Aktuell biete ich kostenlos 1 zu 1 Sessions remote und in Berlin an. Schreib mir und lern mich kennen: 
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
    data-domain="$email_domain$"
