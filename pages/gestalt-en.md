@@ -38,7 +38,11 @@ I am a Gestalt therapist in training at [Irgendwie Anders](https://irgendwie-and
 
 &nbsp;
 
-I am currently offering 1o1 sessions remotely and in Berlin free of charge. Write to me and get to know me:  
+I am currently offering 1o1 sessions remotely and in Berlin free of charge.
+
+&nbsp;
+
+Write to me and get to know me:  
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
    data-domain="$email_domain$"
