@@ -14,6 +14,10 @@ Willkommen.
 
 &nbsp;
 
+Leistungsdruck. Erschöpfung. Unzufriedenheit. Unruhe. Beziehungsmuster. Einsamkeit. Ewiges Analysieren. Selbstkritik. Du weißt, dass da mehr sein könnte. Aber du kommst nicht ran.
+
+&nbsp;
+
 In der Gestalttherapie geht es nicht darum, schnelle Lösungen zu finden, sondern darum, bewusst wahrzunehmen, was wirklich da ist – in deinen Gedanken, in deinem Körper, in deinen Gefühlen.
 
 &nbsp;

@@ -10,8 +10,8 @@ slug: about
 Hi.
 
 &nbsp;
- 
-I am based in Berlin - Kreuzkölln.
+–
+I am based in Berlin-Kreuzkölln.
 
 &nbsp;
 

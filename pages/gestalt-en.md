@@ -14,6 +14,10 @@ Welcome.
 
 &nbsp;
 
+Performance pressure. Exhaustion. Dissatisfaction. Restlessness. Relationship patterns. Loneliness. Endless analyzing. Self-criticism. You know there could be more. But you can't reach it.
+
+&nbsp;
+
 
 Gestalt therapy is not about finding quick solutions, but about becoming aware of what is truly present – in your thoughts, in your body, in your feelings.
 

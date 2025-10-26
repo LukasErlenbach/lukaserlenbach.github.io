@@ -22,11 +22,11 @@ After nearly a week of hiking, picking blueberries and occasionally talking to m
 
 &nbsp;
 
-The next morning, I was woken up by a park ranger - and a TV-Chef. They told me the Crown Princess was arriving soon for lunch. I asked if I needed to leave. They said no. Then I asked if I could join. They agreed and I helped prepare reindeer sandwiches and coffee.
+The next morning, I was woken up by a park ranger – and a TV-Chef. They told me the Crown Princess was arriving soon for lunch. I asked if I needed to leave. They said no. Then I asked if I could join. They agreed and I helped prepare reindeer sandwiches and coffee.
 
 &nbsp;
 
-Eventually, my wilderness retreat turned surreal. Around 30 people - photographers, park rangers and body guards - arrived at the cabin. In the middle of them Her Majesty, Victoria, Crown Princess of Sweden.
+Eventually, my wilderness retreat turned surreal. Around 30 people – photographers, park rangers and body guards – arrived at the cabin. In the middle of them Her Majesty, Victoria, Crown Princess of Sweden.
 
 &nbsp;
 
