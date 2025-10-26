@@ -10,7 +10,7 @@ slug: about
 Hi.
 
 &nbsp;
-–
+
 I am based in Berlin-Kreuzkölln.
 
 &nbsp;
