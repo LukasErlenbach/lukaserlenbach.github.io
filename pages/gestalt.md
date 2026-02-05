@@ -38,10 +38,6 @@ Ich bin Gestalttherapeut in Ausbildung bei [Irgendwie Anders](https://irgendwie-
 
 &nbsp;
 
-Aktuell biete ich kostenlos 1 zu 1 Sessions remote und in Berlin an. 
-
-&nbsp;
-
 Schreib mir und lern mich kennen: 
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
