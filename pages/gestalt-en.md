@@ -32,6 +32,8 @@ I am happy to accompany you if you desire change or feel overwhelmed by options.
 
 *Currently, I am in advanced training as a Gestalt therapist at [Irgendwie Anders](https://irgendwie-anders.de/) and preparing for the state licensure as a Heilpraktiker für Psychotherapie.*
 
+\
+
 *My current offer is strictly limited to **Consulting, Coaching, and Self-Experience** for personal development. I do not offer diagnosis or medical treatment of mental disorders in a clinical sense at this stage.*
 
 &nbsp;

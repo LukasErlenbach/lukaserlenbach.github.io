@@ -32,6 +32,8 @@ Ich begleite dich gerne, wenn du dir Veränderung wünschst oder von Optionen ü
 
 *Aktuell befinde ich mich in der fortgeschrittenen Ausbildung zum Gestalttherapeuten bei [Irgendwie Anders](https://irgendwie-anders.de/) und bereite mich auf die Überprüfung zum Heilpraktiker für Psychotherapie vor.*
 
+\
+
 *Mein Angebot umfasst derzeit ausschließlich **Beratung, Coaching und Selbsterfahrung** zur Persönlichkeitsentwicklung.*
 
 &nbsp;
