@@ -52,7 +52,7 @@ Drop me a line to get to know me:
 
 > *"Change occurs when one becomes what he is, not when he tries to become what he is not."*
 
-> — Arnold R. Beisser (The Paradoxical Theory of Change)
+> — Arnold R. Beisser
 
 :::
 ::: image
