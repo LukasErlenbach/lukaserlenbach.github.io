@@ -9,40 +9,34 @@ slug: gestalt-en
 
 &nbsp;
 
-
-Welcome.
-
-&nbsp;
-
-Performance pressure. Exhaustion. Dissatisfaction. Restlessness. Relationship patterns. Loneliness. Endless analyzing. Self-criticism. You know there could be more. But you can't reach it.
+**Welcome.**
 
 &nbsp;
 
-
-Gestalt therapy is not about finding quick solutions, but about becoming aware of what is truly present – in your thoughts, in your body, in your feelings.
-
-&nbsp;
- 
-
-For me, as a mathematician, ultrarunner and AI-consultant, Gestalt has become essential in connecting structure with flow, control with trust, and head with heart, belly and pelvis – allowing me to feel fully alive.
+Pressure to perform. Exhaustion. Restlessness. Analysis paralysis.
+You know there could be more. But you can't access it.
 
 &nbsp;
 
-If you wish for positive change in your life, perhaps feel overwhelmed by your options, or are simply exhausted from searching for improvement, I will gladly accompany you with honesty and genuine curiosity. It's worth the effort getting to know yourself better.
-
-&nbsp;
- 
-
-I work in dialogue, at eye level, without offering ready-made solutions. Together we will tune in closely and explore what actually stands in the way of you and your needs – in your own time, with humor, and in mindful contact.
-
-&nbsp;
- 
-
-I am a Gestalt therapist in training at [Irgendwie Anders](https://irgendwie-anders.de/).
+My approach to Gestalt work isn't about quick fixes. It is about honestly perceiving what is actually there. In your head, your heart, your gut, and your pelvis.
 
 &nbsp;
 
-Write to me and get to know me:  
+As a mathematician, ultrarunner, and management consultant, I know the balancing act between structure and flow. For me, Gestalt is the key to connecting control with trust and reclaiming aliveness.
+
+&nbsp;
+
+I am happy to accompany you if you desire change or feel overwhelmed by options. We work in a dialogue at eye level. Without pre-packaged advice. Together, we explore which patterns are standing in your way and how to access your resources again. At your pace, with humor, and mindful presence.
+
+&nbsp;
+
+*Currently, I am in advanced training as a Gestalt therapist at [Irgendwie Anders](https://irgendwie-anders.de/) and preparing for the state licensure as a Heilpraktiker für Psychotherapie.*
+
+*My current offer is strictly limited to **Consulting, Coaching, and Self-Experience** for personal development. I do not offer diagnosis or medical treatment of mental disorders in a clinical sense at this stage.*
+
+&nbsp;
+
+Drop me a line to get to know me:
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
    data-domain="$email_domain$"
@@ -54,11 +48,9 @@ Write to me and get to know me:
 
 &nbsp;
 
+> *"Change occurs when one becomes what he is, not when he tries to become what he is not."*
 
-> *"Change happens by itself. When we go deeper into what we are, when we accept what is, change comes on its own."*  
-
-> — Fritz Perls
-
+> — Arnold R. Beisser (The Paradoxical Theory of Change)
 
 :::
 ::: image

@@ -7,38 +7,36 @@ slug: gestalt
 ::: paragraph
 ::: text
 
+&nbsp;
+
+**Willkommen.**
 
 &nbsp;
 
-Willkommen.
+Leistungsdruck. Erschöpfung. Unruhe. Ewiges Analysieren.
+Du weißt, dass da mehr sein könnte. Aber der Zugang fehlt.
 
 &nbsp;
 
-Leistungsdruck. Erschöpfung. Unzufriedenheit. Unruhe. Beziehungsmuster. Einsamkeit. Ewiges Analysieren. Selbstkritik. Du weißt, dass da mehr sein könnte. Aber du kommst nicht ran.
+In der Gestaltarbeit geht es mir nicht um schnelle "Fixes", sondern um das ehrliche Wahrnehmen dessen, was wirklich da ist. In Kopf, in Herz, in Bauch und im Becken.
 
 &nbsp;
 
-In der Gestalttherapie geht es nicht darum, schnelle Lösungen zu finden, sondern darum, bewusst wahrzunehmen, was wirklich da ist – in deinen Gedanken, in deinem Körper, in deinen Gefühlen.
+Als Mathematiker, Ultraläufer und Unternehmensberater kenne ich den Spagat zwischen Struktur und Flow. Für mich ist Gestalt der Schlüssel, um Kontrolle mit Vertrauen zu verbinden und Lebendigkeit zurückzugewinnen.
 
 &nbsp;
 
-Für mich als Mathematiker, Ultraläufer und Unternehmensberater ist Gestalt essentiell, um Struktur mit Flow, Kontrolle mit Vertrauen und Kopf mit Herz, Bauch und Becken zu verbinden und mich lebendig zu fühlen.
+Ich begleite dich gerne, wenn du dir Veränderung wünschst oder von Optionen überfordert bist. Wir arbeiten im Dialog auf Augenhöhe. Ohne vorgefertigte Ratschläge. Gemeinsam erforschen wir, welche Muster dir im Weg stehen und wie du wieder Zugang zu deinen Ressourcen findest. In deinem Tempo, mit Humor und achtsamer Präsenz.
 
 &nbsp;
 
-Falls du dir positive Veränderung in deinem Leben wünschst, vielleicht von deinen Optionen überfordert oder einfach erschöpft von der Suche nach Besserung bist, dann begleite ich dich gerne mit Ehrlichkeit und aufrichtiger Neugier. Es lohnt sich, dich selbst besser kennenzulernen.
+*Aktuell befinde ich mich in der fortgeschrittenen Ausbildung zum Gestalttherapeuten bei [Irgendwie Anders](https://irgendwie-anders.de/) und bereite mich auf die Überprüfung zum Heilpraktiker für Psychotherapie vor.*
+
+*Mein Angebot umfasst derzeit ausschließlich **Beratung, Coaching und Selbsterfahrung** zur Persönlichkeitsentwicklung.*
 
 &nbsp;
 
-Ich arbeite im Dialog auf Augenhöhe und ohne dir Lösungen vorzuschlagen. Gemeinsam fühlen wir genau hin und finden heraus, was dir und deinen Bedürfnissen eigentlich im Weg steht. In deinem Tempo, mit Humor und in achtsamem Kontakt.
-
-&nbsp;
-
-Ich bin Gestalttherapeut in Ausbildung bei [Irgendwie Anders](https://irgendwie-anders.de/).
-
-&nbsp;
-
-Schreib mir und lern mich kennen: 
+Schreib mir für ein Kennenlernen:
 <a href="mailto:" class="crypted-mail"
    data-name="$email_username$"
    data-domain="$email_domain$"
@@ -50,11 +48,9 @@ Schreib mir und lern mich kennen:
 
 &nbsp;
 
+> *"Veränderung geschieht, wenn jemand wird, was er ist, nicht wenn er versucht, etwas zu werden, das er nicht ist."*
 
-> *"Veränderungen finden von allein statt. Wenn wir tiefer in das eindringen, was wir sind, wenn wir akzeptieren, was da ist, kommen die Veränderungen von allein."*
-
-> — Fritz Perls
-
+> — Arnold R. Beisser
 
 :::
 ::: image
