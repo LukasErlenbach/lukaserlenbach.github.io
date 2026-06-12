@@ -56,7 +56,7 @@ Schreib mir für ein Kennenlernen:
 
 :::
 ::: image
-![Portrait](../static/img/portrait_le.jpg){class="portrait"} \
+![Portrait](../static/img/portrait_ia.jpg){class="portrait"} \
 :::
 :::
 :::
