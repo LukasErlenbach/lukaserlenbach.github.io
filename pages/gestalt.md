@@ -13,12 +13,15 @@ slug: gestalt
 
 &nbsp;
 
-Leistungsdruck. Erschöpfung. Unruhe. Ewiges Analysieren.
-Du weißt, dass da mehr sein könnte. Aber der Zugang fehlt.
+Schön, dass Du hier bist. 
 
 &nbsp;
 
-In der Gestaltarbeit geht es mir nicht um schnelle "Fixes", sondern um das ehrliche Wahrnehmen dessen, was wirklich da ist. In Kopf, in Herz, in Bauch und im Becken.
+Vielleicht kennst Du sowas. Leistungsdruck. Erschöpfung. Unruhe. Ewig gleiche Gedankenkreise. Suche nach Intuition. Und eigentlich weißt Du, dass da mehr sein könnte. Aber der Zugang fehlt.
+
+&nbsp;
+
+In der Gestaltarbeit geht es nicht um schnelle "Fixes", sondern um das ehrliche Wahrnehmen dessen, was wirklich da ist. In Kopf, in Herz, in Bauch und im Becken. Um die eigenen Bedürfnisse und Vermeidungsstrategien besser zu verstehen.
 
 &nbsp;
 
@@ -30,11 +33,11 @@ Ich begleite dich gerne, wenn du dir Veränderung wünschst oder von Optionen ü
 
 &nbsp;
 
-*Aktuell befinde ich mich in der fortgeschrittenen Ausbildung zum Gestalttherapeuten bei [Irgendwie Anders](https://irgendwie-anders.de/) und bereite mich auf die Überprüfung zum Heilpraktiker für Psychotherapie vor.*
+*Aktuell befinde ich mich in der fortgeschrittenen Ausbildung zum Gestalttherapeuten bei [Irgendwie Anders](https://irgendwie-anders.de/).*
 
 \
 
-*Mein Angebot umfasst derzeit ausschließlich **Beratung, Coaching und Selbsterfahrung** zur Persönlichkeitsentwicklung.*
+*Mein Angebot umfasst derzeit ausschließlich **Beratung, Coaching und Selbsterfahrung** zur Persönlichkeitsentwicklung auf Spendenbasis.*
 
 &nbsp;
 

@@ -15,7 +15,7 @@ I am based in Berlin-Kreuzkölln.
 
 &nbsp;
 
-I am currently enjoying gymnastic rings, slowing down and juicy human contact.
+I am currently enjoying gymnastic rings, slowing down and humanic experiments.
 
 &nbsp;
 
@@ -23,7 +23,7 @@ I am the GenAI Lead Consultant at [b.telligent](https://www.linkedin.com/in/luka
 
 &nbsp;
 
-I am a Gestalt therapist in training at  [Irgendwie Anders](https://irgendwie-anders.de/).
+I am a Gestalt therapist in training at [Irgendwie Anders](https://irgendwie-anders.de/).
 
 &nbsp;
 

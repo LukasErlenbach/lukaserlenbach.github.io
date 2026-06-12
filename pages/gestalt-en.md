@@ -13,12 +13,15 @@ slug: gestalt-en
 
 &nbsp;
 
-Pressure to perform. Exhaustion. Restlessness. Analysis paralysis.
-You know there could be more. But you can't access it.
+I'm glad you're here.
 
 &nbsp;
 
-My approach to Gestalt work isn't about quick fixes. It is about honestly perceiving what is actually there. In your head, your heart, your gut, and your pelvis.
+Perhaps this sounds familiar: The pressure to perform. Exhaustion. Restlessness. Endless loops of thought. Searching for intuition. Deep down, you know there could be more, but you can't seem to access it.
+
+&nbsp;
+
+Gestalt work is not about quick "fixes," but about honestly perceiving what is truly there. In the head, heart, belly, and pelvis. It is about better understanding your own needs and avoidance strategies.
 
 &nbsp;
 
