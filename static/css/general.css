@@ -15,18 +15,6 @@ body {
     grid-template-areas: "nav" "main" "footer";
 }
 
-/* Responsive body grid gap */
-@media screen and (max-width: calc(((759.9px + 10rem) / 0.7))) {
-    body {
-        grid-gap: 0;
-    }
-}
-
-/* email obfuscation */
-.crypted-mail:after {
-    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
-}
-
 /* Link color (inherits from parent, themed via variables) */
 a:link,
 a:visited {
@@ -72,6 +60,11 @@ a:visited {
 
 .skip-link:focus {
     top: 1em;
+}
+
+html.dark-mode .skip-link {
+    background: #000;
+    color: #fff;
 }
 
 :focus-visible {

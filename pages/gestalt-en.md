@@ -3,7 +3,7 @@ title: Gestalt
 slug: gestalt-en
 lang: en
 alternate_lang: de
-alternate_path: /gestalt.html
+alternate: gestalt
 description: "Gestalt consulting, coaching and self-experience in Berlin with Lukas Erlenbach: dialogue at eye level for people under pressure to perform, at your own pace."
 ---
 
@@ -46,12 +46,7 @@ I am happy to accompany you if you desire change or feel overwhelmed by options.
 &nbsp;
 
 Drop me a line to get to know me:
-<a href="mailto:" class="crypted-mail"
-   data-name="$email_username$"
-   data-domain="$email_domain$"
-   data-tld="$email_tld$"
-   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
-</a>.
+<a href="mailto:" class="crypted-mail" data-name="$email_username$" data-domain="$email_domain$" data-tld="$email_tld$"></a>.
 
 ### 𖦹
 
@@ -63,7 +58,7 @@ Drop me a line to get to know me:
 
 :::
 ::: image
-![Portrait](../static/img/portrait_ia.jpg){class="portrait"} \
+![Portrait](/static/img/portrait_ia.jpg){class="portrait" width="1400" height="933" loading="lazy"} \
 :::
 :::
 :::

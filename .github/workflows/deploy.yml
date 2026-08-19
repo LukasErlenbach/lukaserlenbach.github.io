@@ -33,7 +33,7 @@ jobs:
           path: |
             ~/.stack
             .stack-work
-          key: stack-${{ runner.os }}-${{ hashFiles('stack.yaml', '*.cabal') }}
+          key: stack-${{ runner.os }}-${{ hashFiles('stack.yaml', 'stack.yaml.lock', '*.cabal') }}
           restore-keys: stack-${{ runner.os }}-
 
       - run: stack build --no-terminal

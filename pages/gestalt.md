@@ -3,7 +3,7 @@ title: Gestalt
 slug: gestalt
 lang: de
 alternate_lang: en
-alternate_path: /gestalt-en.html
+alternate: gestalt-en
 description: "Gestaltberatung, Coaching und Selbsterfahrung in Berlin mit Lukas Erlenbach: Dialog auf Augenhöhe für Menschen unter Leistungsdruck, auf Spendenbasis."
 ---
 
@@ -46,12 +46,7 @@ Ich begleite dich gerne, wenn du dir Veränderung wünschst oder von Optionen ü
 &nbsp;
 
 Schreib mir für ein Kennenlernen:
-<a href="mailto:" class="crypted-mail"
-   data-name="$email_username$"
-   data-domain="$email_domain$"
-   data-tld="$email_tld$"
-   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
-</a>.
+<a href="mailto:" class="crypted-mail" data-name="$email_username$" data-domain="$email_domain$" data-tld="$email_tld$"></a>.
 
 ### 𖦹
 
@@ -63,7 +58,7 @@ Schreib mir für ein Kennenlernen:
 
 :::
 ::: image
-![Portrait](../static/img/portrait_ia.jpg){class="portrait"} \
+![Portrait](/static/img/portrait_ia.jpg){class="portrait" width="1400" height="933" loading="lazy"} \
 :::
 :::
 :::

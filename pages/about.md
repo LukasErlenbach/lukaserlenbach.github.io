@@ -29,18 +29,13 @@ I am a Gestalt therapist in training at [Irgendwie Anders](https://irgendwie-and
 &nbsp;
 
 Contact me:
-<a href="mailto:" class="crypted-mail"
-   data-name="$email_username$"
-   data-domain="$email_domain$"
-   data-tld="$email_tld$"
-   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
-</a>.
+<a href="mailto:" class="crypted-mail" data-name="$email_username$" data-domain="$email_domain$" data-tld="$email_tld$"></a>.
 
 ### 𖤓
 
 :::
 ::: image
-![Portrait](../static/img/portrait_le.jpg){class="portrait"} \
+![Portrait](/static/img/portrait_le.jpg){class="portrait" width="1400" height="1000" loading="lazy"} \
 :::
 :::
 :::

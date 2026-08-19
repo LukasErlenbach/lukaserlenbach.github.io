@@ -1,3 +1,14 @@
+// Email links are shipped as data-name/domain/tld so the address is not in
+// the HTML for scrapers; assemble href and visible text here.
+;(function () {
+    var mailLinks = document.querySelectorAll("a[data-name][data-domain][data-tld]")
+    Array.prototype.forEach.call(mailLinks, function (link) {
+        var address = link.dataset.name + "@" + link.dataset.domain + "." + link.dataset.tld
+        link.href = "mailto:" + address
+        if (link.classList.contains("crypted-mail")) link.textContent = address
+    })
+})()
+
 // Mobile navigation toggle
 ;(function () {
     var menu = document.getElementById("js-menu")
@@ -8,7 +19,6 @@
         var isOpen = menu.classList.toggle("active")
         toggle.classList.toggle("is-open", isOpen)
         toggle.setAttribute("aria-expanded", String(isOpen))
-        toggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu")
     })
 
     document.addEventListener("keyup", function (event) {
@@ -20,25 +30,18 @@
 })()
 
 // Theme toggle. The initial class is set by the inline script in <head>
-// (templates/head.html) so the first paint already has the right theme.
+// (templates/head.html) so the first paint already has the right theme;
+// which icon shows is pure CSS keyed on html.dark-mode.
 ;(function () {
     var toggle = document.getElementById("dark-mode-toggle")
-    var iconMoon = document.getElementById("icon-moon")
-    var iconSun = document.getElementById("icon-sun")
-    if (!toggle || !iconMoon || !iconSun) return
+    if (!toggle) return
     var DARK_CLASS = "dark-mode"
 
-    function renderTheme(isDark) {
-        iconMoon.style.display = isDark ? "inline" : "none"
-        iconSun.style.display = isDark ? "none" : "inline"
-        toggle.setAttribute("aria-pressed", String(isDark))
-    }
-
-    renderTheme(document.documentElement.classList.contains(DARK_CLASS))
+    toggle.setAttribute("aria-pressed", String(document.documentElement.classList.contains(DARK_CLASS)))
 
     toggle.addEventListener("click", function () {
-        var nowDark = document.documentElement.classList.toggle(DARK_CLASS)
-        localStorage.setItem("theme", nowDark ? "dark" : "light")
-        renderTheme(nowDark)
+        var isDark = document.documentElement.classList.toggle(DARK_CLASS)
+        toggle.setAttribute("aria-pressed", String(isDark))
+        try { localStorage.setItem("theme", isDark ? "dark" : "light") } catch (e) { /* storage disabled: theme still toggles for this page */ }
     })
 })()

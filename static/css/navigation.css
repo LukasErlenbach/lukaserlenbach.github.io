@@ -28,10 +28,12 @@
     font: inherit;
     color: inherit;
     cursor: pointer;
-    padding: 0;
+    padding: 0.4em;
+    margin: -0.4em;
 }
 
-.nav-links:hover {
+.nav-links:hover,
+.logo:hover {
     border-bottom: 0.1em solid black;
 }
 
@@ -39,6 +41,16 @@
     display: inline-flex;
     align-items: center;
     gap: 0.3em;
+}
+
+/* which theme icon shows is decided by the html.dark-mode class, not by JS */
+#icon-moon,
+html.dark-mode #icon-sun {
+    display: none;
+}
+
+html.dark-mode #icon-moon {
+    display: inline;
 }
 
 /* Dark Mode Styles */
@@ -113,10 +125,6 @@ html.dark-mode .logo:hover {
     }
     .navbar-toggle {
         display: none;
-    }
-    .logo:hover,
-    .nav-links:hover {
-        border-bottom: 0.1em solid black;
     }
     .nav-separator-item {
         display: none;

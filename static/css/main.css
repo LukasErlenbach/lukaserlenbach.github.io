@@ -15,10 +15,6 @@ h3 {
     margin-top: 3em;
 }
 
-h4 {
-    border-bottom: 0.15em solid;
-}
-
 .heading {
     margin: 1em 0;
 }
@@ -46,10 +42,6 @@ h4 {
 
 .paragraph:nth-child(odd) {
     background-color: #eceff1;
-}
-
-.text h2 {
-    font-size: 1.2em;
 }
 
 .image {

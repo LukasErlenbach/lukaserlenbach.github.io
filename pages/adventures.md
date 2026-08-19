@@ -46,7 +46,7 @@ Eventually, they gave me a ride back to Umeå, where I spent the rest of my vaca
 
 :::
 ::: image
-![Portrait](../static/img/qed.jpg){class="portrait"} \
+![Portrait](/static/img/qed.jpg){class="portrait" width="750" height="1000" loading="lazy"} \
 :::
 :::
 :::
