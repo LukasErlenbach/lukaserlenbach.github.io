@@ -63,3 +63,11 @@ packages:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+# lts-20.5 pins digest-0.0.1.4, whose configure hard-requires pkg-config. The
+# 0.0.2 line has a flag to skip it and link zlib (shipped in the macOS SDK)
+# directly; override just that one package so the build needs no Homebrew.
+extra-deps:
+- digest-0.0.2.1
+flags:
+  digest:
+    pkg-config: false
