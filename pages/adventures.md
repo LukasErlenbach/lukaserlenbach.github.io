@@ -1,6 +1,7 @@
 ---
 title: Adventures
 slug: adventures
+description: "Adventures of Lukas Erlenbach: a solo survival trip in Sweden's Björnlandet that ended in an unexpected lunch with Crown Princess Victoria."
 ---
 
 ::: article
@@ -45,7 +46,7 @@ Eventually, they gave me a ride back to Umeå, where I spent the rest of my vaca
 
 :::
 ::: image
-![Portrait](../static/img/qed.JPEG){class="portrait"} \
+![Portrait](../static/img/qed.jpg){class="portrait"} \
 :::
 :::
 :::

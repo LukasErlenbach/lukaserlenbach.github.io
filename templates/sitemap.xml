@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+$for(pages)$
+  <url>
+    <loc>$site_url$$canonical_path$</loc>
+$if(alternate_lang)$
+    <xhtml:link rel="alternate" hreflang="$lang$" href="$site_url$$canonical_path$"/>
+    <xhtml:link rel="alternate" hreflang="$alternate_lang$" href="$site_url$$alternate_path$"/>
+$endif$
+  </url>
+$endfor$
+</urlset>

@@ -1,6 +1,10 @@
 ---
 title: Gestalt
 slug: gestalt-en
+lang: en
+alternate_lang: de
+alternate_path: /gestalt.html
+description: "Gestalt consulting, coaching and self-experience in Berlin with Lukas Erlenbach: dialogue at eye level for people under pressure to perform, at your own pace."
 ---
 
 ::: article

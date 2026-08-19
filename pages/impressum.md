@@ -1,9 +1,10 @@
 ---
 title: Impressum
 slug: impressum
+lang: de
+description: "Impressum von Lukas Erlenbach: Anbieterkennzeichnung, Kontakt und Hinweise zu Beratung, Coaching und Selbsterfahrung auf dieser Webseite."
 ---
 
-# Impressum
 
 ## Angaben gemäß § 5 TMG
 

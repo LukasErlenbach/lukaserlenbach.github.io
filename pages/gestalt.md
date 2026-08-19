@@ -1,6 +1,10 @@
 ---
 title: Gestalt
 slug: gestalt
+lang: de
+alternate_lang: en
+alternate_path: /gestalt-en.html
+description: "Gestaltberatung, Coaching und Selbsterfahrung in Berlin mit Lukas Erlenbach: Dialog auf Augenhöhe für Menschen unter Leistungsdruck, auf Spendenbasis."
 ---
 
 ::: article

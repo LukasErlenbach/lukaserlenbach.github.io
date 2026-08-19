@@ -1,6 +1,7 @@
 ---
 title: About
 slug: about
+description: "About Lukas Erlenbach: based in Berlin-Kreuzkölln, GenAI Lead Consultant at b.telligent, Gestalt therapist in training at Irgendwie Anders. How to get in touch."
 ---
 
 ::: article

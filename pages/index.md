@@ -1,7 +1,7 @@
 ---
 title: Welcome!
-gallery: True
 slug: index
+description: "Lukas Erlenbach, Berlin: mathematician, GenAI lead consultant and Gestalt therapist in training. Portfolio, Gestalt counselling and coaching, and a few stories."
 ---
 
 ::: gallery-header-wrapper

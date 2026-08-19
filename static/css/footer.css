@@ -16,6 +16,7 @@ footer>.wrapper>.grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.75em;
 }
 
 footer>.wrapper>.grid-item>ul {
@@ -31,6 +32,11 @@ footer>.wrapper>.grid-item>ul>li {
 footer>.wrapper>.grid-item>ul>li>a {
     text-decoration: none;
     color: inherit;
+}
+
+.footer-impressum {
+    text-decoration: none;
+    font-size: 0.9em;
 }
 
 html.dark-mode footer {
