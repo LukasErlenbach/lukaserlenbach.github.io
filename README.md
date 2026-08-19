@@ -8,5 +8,14 @@ For installation instructions visit [CleanMagicMedium-Hakyll](https://github.com
 
 Install hakyll `curl -sSL https://get.haskellstack.org/ | sh`.
 
-To publish the page, run `bash publish.sh` from the `hakyll` branch.  
-To test locally, run `stack run watch`.  
+To test locally, run `stack run watch` and open http://localhost:35730.
+
+## Publishing
+
+Pushing to the `hakyll` branch triggers `.github/workflows/deploy.yml`, which builds the
+site with Stack on CI and publishes `_site/` to GitHub Pages. No local build is needed to
+deploy. The repository's Pages source must be set to "GitHub Actions" (Settings → Pages).
+
+`publish.sh` is the old manual path (local build, rsync into the `master` branch). It is
+kept only as a fallback until the Actions deploy is confirmed working, then it and the
+`master` branch can go.

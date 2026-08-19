@@ -21,3 +21,7 @@ _cache/
 _site/
 stack.yml.lock
 stack.yaml.lock
+
+### PandaOS / Claude Code (local tooling, not part of the site) ###
+.claude/
+.pandaos/

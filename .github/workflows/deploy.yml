@@ -1,0 +1,59 @@
+name: Deploy
+
+on:
+  push:
+    branches: [hakyll]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: haskell-actions/setup@v2
+        with:
+          enable-stack: true
+          stack-no-global: true
+
+      # GHC + every compiled dependency lives under ~/.stack; the project's own
+      # build lives in .stack-work. Keyed on the resolver and cabal file so a
+      # dependency change busts the cache, a content-only push does not.
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.stack
+            .stack-work
+          key: stack-${{ runner.os }}-${{ hashFiles('stack.yaml', '*.cabal') }}
+          restore-keys: stack-${{ runner.os }}-
+
+      - run: stack build --no-terminal
+      - run: stack exec WhoNeedsFrameworks-hakyll rebuild
+
+      # Pages runs Jekyll over the artifact unless told not to; Jekyll drops
+      # anything starting with an underscore.
+      - run: touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
