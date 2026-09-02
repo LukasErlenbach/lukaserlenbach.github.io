@@ -1,5 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.List                      ( isSuffixOf )
+import           Control.Monad                   ( unless )
+import           Data.List                      ( intercalate
+                                                , isSuffixOf
+                                                )
 import           Data.Time                      ( getCurrentTime
                                                 , toGregorian
                                                 , utctDay
@@ -15,10 +18,25 @@ main = do
 
 site :: Context String -> Rules ()
 site ctx = do
-  -- css, js, fonts, images, documents
-  match "static/**" $ do
+  -- js, fonts, images, documents; the css sources are bundled below instead
+  match ("static/**" .&&. complement cssSourcePattern) $ do
     route idRoute
     compile copyFileCompiler
+
+  -- The stylesheets stay modular on disk but ship as a single render-blocking
+  -- file, so a page costs one css request instead of six.
+  match cssSourcePattern $ compile getResourceString
+
+  create [cssBundle] $ do
+    route idRoute
+    compile $ do
+      onDisk <- getMatches cssSourcePattern
+      let unlisted = filter (`notElem` cssOrder) onDisk
+      unless (null unlisted) $ fail $
+        "css bundle: add these to cssOrder in site.hs so their cascade position is explicit: "
+          ++ intercalate ", " (map show unlisted)
+      parts <- mapM load cssOrder :: Compiler [Item String]
+      makeItem $ intercalate "\n" (map itemBody parts)
 
   match "templates/*" $ compile templateCompiler
 
@@ -49,6 +67,21 @@ site ctx = do
 -- the 404 page is served by GitHub Pages for unknown URLs and must not be listed
 indexablePages :: Pattern
 indexablePages = "pages/*" .&&. complement "pages/404.md"
+
+-- Cascade order of the bundle: it is the order the individual <link> tags had,
+-- and later rules still win, so reshuffling this changes how the site renders.
+cssOrder :: [Identifier]
+cssOrder = map
+  (fromFilePath . ("static/css/" ++))
+  ["fonts.css", "navigation.css", "general.css", "main.css", "footer.css", "syntax.css"]
+
+-- The bundle itself is a created item, not a source, and must stay out of the
+-- pattern so it is neither copied verbatim nor fed back into itself.
+cssSourcePattern :: Pattern
+cssSourcePattern = "static/css/*.css" .&&. complement (fromList [cssBundle])
+
+cssBundle :: Identifier
+cssBundle = "static/css/site.css"
 
 -- The URL comes from the `slug:` front-matter field so a file can be renamed
 -- without breaking a published URL; falls back to the file name.
