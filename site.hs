@@ -1,13 +1,22 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Control.Monad                   ( unless )
-import           Data.List                      ( intercalate
+import           Data.List                      ( group
+                                                , intercalate
                                                 , isSuffixOf
+                                                , sort
+                                                )
+import           Data.Maybe                     ( isJust
+                                                , isNothing
                                                 )
 import           Data.Time                      ( getCurrentTime
                                                 , toGregorian
                                                 , utctDay
                                                 )
 import           Hakyll
+import           System.Exit                    ( exitFailure )
+import           System.IO                      ( hPutStrLn
+                                                , stderr
+                                                )
 
 --------------------------------------------------------------------------------
 
@@ -18,6 +27,8 @@ main = do
 
 site :: Context String -> Rules ()
 site ctx = do
+  checkTranslations
+
   -- js, fonts, images, documents; the css sources are bundled below instead
   match ("static/**" .&&. complement cssSourcePattern) $ do
     route idRoute
@@ -63,6 +74,66 @@ site ctx = do
     compile $ makeItem (unlines ["User-agent: *", "Allow: /", "", "Sitemap: " ++ siteUrl ++ "/sitemap.xml"])
 
 --------------------------------------------------------------------------------
+
+-- Every bilingual page pair, as (German slug, English slug). The hreflang links
+-- themselves are built from each page's front matter, so this table is the one
+-- place that states which pages are translations of each other; checkTranslations
+-- makes the build fail when the pages on disk stop agreeing with it.
+translations :: [(String, String)]
+translations = [("gestalt", "gestalt-en")]
+
+-- Fails the build when pages/ and `translations` disagree: a renamed or deleted
+-- slug, a page whose lang/alternate front matter contradicts the table, or a
+-- page that advertises an alternate the table does not know about. Any of those
+-- would otherwise ship hreflang links pointing at URLs that do not exist.
+checkTranslations :: Rules ()
+checkTranslations = do
+  metas <- getAllMetadata "pages/*"
+  let slugged  = [ (slug, meta) | (_, meta) <- metas, Just slug <- [lookupString "slug" meta] ]
+      tabled   = concatMap (\(de, en) -> [de, en]) translations
+      problems = concat
+        [ [ "page " ++ show ident ++ " has no `slug:` in its front matter"
+          | (ident, meta) <- metas
+          , isNothing (lookupString "slug" meta)
+          ]
+        , [ "slug " ++ show slug ++ " is claimed by more than one page under pages/"
+          | (slug : _ : _) <- group (sort (map fst slugged))
+          ]
+        , concatMap (pairProblems slugged) translations
+        , [ show slug ++ " declares an alternate but is not listed in `translations` in site.hs"
+          | (slug, meta) <- slugged
+          , slug `notElem` tabled
+          , isJust (lookupString "alternate" meta) || isJust (lookupString "alternate_lang" meta)
+          ]
+        ]
+  preprocess $ unless (null problems) $ do
+    hPutStrLn stderr "hreflang consistency check failed:"
+    mapM_ (hPutStrLn stderr . ("  - " ++)) problems
+    exitFailure
+
+pairProblems :: [(String, Metadata)] -> (String, String) -> [String]
+pairProblems slugged (de, en) = case (lookup de slugged, lookup en slugged) of
+  (Nothing, _) -> [missing de]
+  (_, Nothing) -> [missing en]
+  (Just deMeta, Just enMeta) ->
+    sideProblems de "de" en "en" deMeta ++ sideProblems en "en" de "de" enMeta
+ where
+  missing slug =
+    "`translations` lists " ++ show slug ++ " but no page under pages/ has that slug"
+
+-- One half of a pair: its own language, and the sibling it must point at.
+sideProblems :: String -> String -> String -> String -> Metadata -> [String]
+sideProblems slug lang sibling siblingLang meta = concat
+  [ mismatch "lang"           lang
+  , mismatch "alternate"      sibling
+  , mismatch "alternate_lang" siblingLang
+  ]
+ where
+  mismatch key want
+    | lookupString key meta == Just want = []
+    | otherwise = [ show slug ++ ": front matter `" ++ key ++ "` is "
+                    ++ maybe "missing" show (lookupString key meta)
+                    ++ ", `translations` says " ++ show want ]
 
 -- the 404 page is served by GitHub Pages for unknown URLs and must not be listed
 indexablePages :: Pattern
