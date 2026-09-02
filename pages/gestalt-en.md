@@ -1,5 +1,6 @@
 ---
 title: Gestalt
+page_title: "Gestalt Consulting and Coaching in Berlin | Lukas Erlenbach"
 slug: gestalt-en
 lang: en
 alternate_lang: de

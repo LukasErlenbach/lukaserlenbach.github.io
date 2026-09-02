@@ -1,5 +1,6 @@
 ---
 title: Adventures
+page_title: "Adventures | Lukas Erlenbach"
 slug: adventures
 description: "Adventures of Lukas Erlenbach: a solo survival trip in Sweden's Björnlandet that ended in an unexpected lunch with Crown Princess Victoria."
 ---

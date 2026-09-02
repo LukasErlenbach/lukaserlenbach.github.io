@@ -221,9 +221,25 @@ escapedMetadataField key = field key $ \item -> escapeHtml <$> getMetadataField'
 siteUrl :: String
 siteUrl = "https://lukaserlenbach.github.io"
 
+siteName :: String
+siteName = "lukas erlenbach"
+
+-- The document <title> is deliberately separate from the visible <h1>: a page
+-- sets `page_title:` in its front matter to state its own full, per-language
+-- title. Pages without one keep the old "<h1> | site name" shape.
+pageTitleField :: Context a
+pageTitleField = field "page_title" $ \item -> do
+  let ident = itemIdentifier item
+  custom <- getMetadataField ident "page_title"
+  case custom of
+    Just title -> return (escapeHtml title)
+    Nothing    -> do
+      heading <- getMetadataField' ident "title"
+      return (escapeHtml heading ++ " | " ++ siteName)
+
 siteCtx :: Integer -> Context String
 siteCtx year =
-  constField "site_name"          "lukas erlenbach"
+  constField "site_name"          siteName
     <> constField "author_name"        "Lukas Erlenbach"
     <> constField "site_url"           siteUrl
     <> constField "copyright_year"     (show year)
@@ -234,6 +250,7 @@ siteCtx year =
     <> constField "email_tld"          "com"
     <> constField "google_site_verification" "wEjUQsgPLHLH2f8ey9_OG62PzRpH55Tku4Q6Pmle3ak"
     <> escapedMetadataField "title"
+    <> pageTitleField
     <> escapedMetadataField "description"
     <> canonicalPathField
     <> alternatePathField

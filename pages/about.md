@@ -1,5 +1,6 @@
 ---
 title: About
+page_title: "About | Lukas Erlenbach"
 slug: about
 description: "About Lukas Erlenbach: based in Berlin-Kreuzkölln, Lead AI Consultant at Pandata, Gestalt therapist in training at Irgendwie Anders. How to get in touch."
 ---

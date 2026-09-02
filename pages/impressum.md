@@ -1,5 +1,6 @@
 ---
 title: Impressum
+page_title: "Impressum und Datenschutz | Lukas Erlenbach"
 slug: impressum
 lang: de
 description: "Impressum und Datenschutzhinweise von Lukas Erlenbach: Anbieterkennzeichnung, Kontakt, Hinweise zu Beratung, Coaching und Selbsterfahrung sowie zum Hosting dieser Webseite."
