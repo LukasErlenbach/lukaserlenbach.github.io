@@ -80,7 +80,7 @@ html.dark-mode .logo:hover {
 }
 
 /* Mobile Styles */
-@media (hover: none), (max-width: 767px) {
+@media (hover: none), (max-width: 1099px) {
     .active {
         width: 100%;
         display: flex;
@@ -113,7 +113,7 @@ html.dark-mode .logo:hover {
 }
 
 /* Desktop Styles */
-@media (hover: hover) and (min-width: 768px) {
+@media (hover: hover) and (min-width: 1100px) {
     .main-nav {
         display: flex;
         margin-right: 1em;

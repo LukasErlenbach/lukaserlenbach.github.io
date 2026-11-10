@@ -16,7 +16,8 @@ I am based in Berlin-Kreuzkölln.
 
 &nbsp;
 
-I am currently enjoying gymnastic rings, slowing down and humanic experiments.
+I am currently enjoying gymnastic rings,\
+slowing down and humanic experiments.
 
 &nbsp;
 
@@ -35,7 +36,7 @@ Contact me:
 
 :::
 ::: image
-![Portrait](/static/img/portrait_le_2026.jpg){class="portrait" width="925" height="1000" loading="lazy"} \
+![Portrait](/static/img/portrait_le_2026.jpg){class="portrait portrait-about" width="925" height="1000" loading="lazy"} \
 :::
 :::
 :::

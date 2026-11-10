@@ -59,9 +59,24 @@ h3 {
     max-height: 20em;
 }
 
-.portrait {
-    max-height: none !important;
-    height: 30em;
+.text {
+    line-height: 1.5;
+}
+
+/* Portraits size to the picture itself (no letterboxed box around it), so
+   max-width and max-height both scale it while keeping its aspect ratio. */
+.image>p>img.portrait {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 30em;
+}
+
+/* The about portrait stays at the size approved in November 2026 (85% of the
+   old 30%-wide column), now that the column is wider. */
+.image>p>img.portrait-about {
+    max-width: 78%;
+    max-height: 25.5em;
 }
 
 /* Responsive Styles */
@@ -70,7 +85,7 @@ h3 {
         font-weight: 500;
     }
     main {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .content, .heading {
         grid-gap: 0;
@@ -78,12 +93,28 @@ h3 {
     .heading, .gallery-header-wrapper {
         grid-template-columns: [col] 1fr [col] 90% [col] 1fr;
     }
+    /* One explicit column: an implicit empty first column would otherwise
+       take a share of the space the width-capped text leaves free. */
+    .article {
+        grid-template-columns: minmax(0, 1fr);
+    }
     .paragraph {
-        grid-column: 2;
         display: grid;
-        grid-gap: 3em;
-        padding: 4em 5vw;
+        grid-gap: 2.5em;
+        padding: 2.5em 5vw 4em;
         grid-template-rows: auto;
+    }
+    /* Keep lines readable on tablets; left-aligned so text stays under the h1. */
+    .paragraph>.text,
+    .paragraph>.image {
+        max-width: 36em;
+    }
+    /* On a phone the portrait introduces the page without filling the screen. */
+    .image>p>img.portrait {
+        max-height: 18em;
+    }
+    .image>p>img.portrait-about {
+        max-height: 15.5em;
     }
     .text {
         grid-row: 1;
@@ -106,12 +137,19 @@ h3 {
     .article {
         margin-top: 2em;
     }
+    /* Margins + gap keep the text's left edge at 15%, under the h1. */
     .paragraph {
         display: grid;
-        grid-template-columns: [col] 1fr [col] 30% [col] 30% [col] 1fr;
-        grid-gap: 10%;
+        grid-template-columns: [col] 1fr [col] 32.5% [col] 32.5% [col] 1fr;
+        column-gap: 5%;
         padding-top: 3em;
         padding-bottom: 6em;
+    }
+    /* The picture stays in view alongside long text. */
+    .paragraph>.image {
+        position: sticky;
+        top: 2em;
+        align-self: start;
     }
     .paragraph:nth-child(odd)>.text,
     .paragraph:nth-child(even)>.image {
