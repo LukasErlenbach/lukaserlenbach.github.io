@@ -12,6 +12,11 @@ To test locally, run `stack run watch` and open http://localhost:35730.
 
 ## Publishing
 
+Commit on `hakyll`, then run `./deploy.sh`: it checks the build locally, pushes, and
+follows the GitHub Actions run until the site is live. It also sets this clone up to push
+as `LukasErlenbach`, whichever gh account is active. A run with a cold CI cache takes
+about 20 minutes instead of 1.
+
 Pushing to the `hakyll` branch triggers `.github/workflows/deploy.yml`, which builds the
 site with Stack on CI and publishes `_site/` to GitHub Pages. No local build is needed to
 deploy. The repository's Pages source must be set to "GitHub Actions" (Settings → Pages).

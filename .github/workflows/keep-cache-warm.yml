@@ -1,0 +1,32 @@
+name: Keep Stack cache warm
+
+# GitHub evicts Actions caches not read for 7 days. A cold cache turns the
+# ~1 min deploy into ~20 min (pandoc & co compile from scratch), and this site
+# is pushed every few weeks at best. Reading the cache twice a week keeps it.
+# GitHub disables scheduled workflows after 60 days without a push; the next
+# deploy re-creates the cache, and re-enabling this is one click in the
+# Actions tab.
+
+on:
+  schedule:
+    - cron: "17 4 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  touch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Paths and key must match deploy.yml exactly, or this reads a
+      # different cache entry.
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.stack
+            .stack-work
+          key: stack-${{ runner.os }}-${{ hashFiles('stack.yaml', 'stack.yaml.lock', '*.cabal') }}
+          restore-keys: stack-${{ runner.os }}-
