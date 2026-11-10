@@ -35,7 +35,7 @@ Contact me:
 
 :::
 ::: image
-![Portrait](/static/img/portrait_le.jpg){class="portrait" width="1400" height="1000" loading="lazy"} \
+![Portrait](/static/img/portrait_le_2026.jpg){class="portrait" width="925" height="1000" loading="lazy"} \
 :::
 :::
 :::
