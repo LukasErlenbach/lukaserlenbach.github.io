@@ -37,7 +37,7 @@ If you want change, or have too many options and can't move, I'm glad to accompa
 
 &nbsp;
 
-*I am currently in advanced training as a Gestalt therapist at [Irgendwie Anders](https://irgendwie-anders.de/) and preparing for the state licensure as a Heilpraktiker für Psychotherapie.*
+*I am currently in advanced training as a Gestalt therapist at [Irgendwie Anders](https://irgendwie-anders.de/).*
 
 \
 
