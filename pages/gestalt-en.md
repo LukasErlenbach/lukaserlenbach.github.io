@@ -21,23 +21,23 @@ I'm glad you're here.
 
 &nbsp;
 
-Perhaps this sounds familiar: The pressure to perform. Exhaustion. Restlessness. Endless loops of thought. Searching for intuition. Deep down, you know there could be more, but you can't seem to access it.
+Maybe you know this: pressure to perform. Exhaustion. Restlessness. Thoughts that keep running the same lap. A gut feeling that has gone quiet. Deep down you know there could be more; you just can't get to it.
 
 &nbsp;
 
-Gestalt work is not about quick "fixes," but about honestly perceiving what is truly there. In the head, heart, belly, and pelvis. It is about better understanding your own needs and avoidance strategies.
+Gestalt work offers no quick fixes. It starts with noticing, honestly, what is there right now: in the head, the heart, the belly, the pelvis. That can be practised. From there your own needs come into view, and so do the strategies you use to sidestep them.
 
 &nbsp;
 
-As a mathematician, ultrarunner, and management consultant, I know the balancing act between structure and flow. For me, Gestalt is the key to connecting control with trust and reclaiming aliveness.
+As a mathematician, ultrarunner and management consultant, I know the balancing act between structure and flow: wanting everything under control, and noticing at the same time that life doesn't happen that way. Gestalt has helped me bring control and trust together and regain aliveness.
 
 &nbsp;
 
-I am happy to accompany you if you desire change or feel overwhelmed by options. We work in a dialogue at eye level. Without pre-packaged advice. Together, we explore which patterns are standing in your way and how to access your resources again. At your pace, with humor, and mindful presence.
+If you want change, or have too many options and can't move, I'm glad to accompany you. We work in dialogue, as equals and at your pace; I don't bring advice. Instead we look together at which patterns are in your way and how you can reach your resources again.
 
 &nbsp;
 
-*Currently, I am in advanced training as a Gestalt therapist at [Irgendwie Anders](https://irgendwie-anders.de/) and preparing for the state licensure as a Heilpraktiker für Psychotherapie.*
+*I am currently in advanced training as a Gestalt therapist at [Irgendwie Anders](https://irgendwie-anders.de/) and preparing for the state licensure as a Heilpraktiker für Psychotherapie.*
 
 \
 
@@ -45,7 +45,7 @@ I am happy to accompany you if you desire change or feel overwhelmed by options.
 
 &nbsp;
 
-Drop me a line to get to know me:
+Write to me if you'd like to meet:
 <a href="mailto:" class="crypted-mail" data-name="$email_username$" data-domain="$email_domain$" data-tld="$email_tld$"></a>.
 
 ### 𖦹

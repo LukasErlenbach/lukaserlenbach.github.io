@@ -21,19 +21,19 @@ Schön, dass Du hier bist.
 
 &nbsp;
 
-Vielleicht kennst Du sowas. Leistungsdruck. Erschöpfung. Unruhe. Ewig gleiche Gedankenkreise. Suche nach Intuition. Und eigentlich weißt Du, dass da mehr sein könnte. Aber der Zugang fehlt.
+Vielleicht kennst Du das: Leistungsdruck. Erschöpfung. Unruhe. Gedanken, die immer dieselbe Runde drehen. Ein Bauchgefühl, das sich nicht meldet. Eigentlich weißt Du, dass da mehr sein könnte; nur der Zugang fehlt.
 
 &nbsp;
 
-In der Gestaltarbeit geht es nicht um schnelle "Fixes", sondern um das ehrliche Wahrnehmen dessen, was wirklich da ist. In Kopf, in Herz, in Bauch und im Becken. Um die eigenen Bedürfnisse und Vermeidungsstrategien besser zu verstehen.
+Gestaltarbeit liefert keine schnellen Fixes. Sie beginnt damit, ehrlich wahrzunehmen, was gerade da ist: im Kopf, im Herzen, im Bauch, im Becken. Das kann man üben. Von dort aus werden die eigenen Bedürfnisse sichtbar, und auch die Strategien, mit denen Du ihnen ausweichst.
 
 &nbsp;
 
-Als Mathematiker, Ultraläufer und Unternehmensberater kenne ich den Spagat zwischen Struktur und Flow. Für mich ist Gestalt der Schlüssel, um Kontrolle mit Vertrauen zu verbinden und Lebendigkeit zurückzugewinnen.
+Als Mathematiker, Ultraläufer und Unternehmensberater kenne ich den Spagat zwischen Struktur und Flow: alles im Griff haben wollen, und gleichzeitig merken, dass das Leben so nicht stattfindet. Gestalt hat mir geholfen, Kontrolle mit Vertrauen zu verbinden und Lebendigkeit zurückzugewinnen.
 
 &nbsp;
 
-Ich begleite dich gerne, wenn du dir Veränderung wünschst oder von Optionen überfordert bist. Wir arbeiten im Dialog auf Augenhöhe. Ohne vorgefertigte Ratschläge. Gemeinsam erforschen wir, welche Muster dir im Weg stehen und wie du wieder Zugang zu deinen Ressourcen findest. In deinem Tempo, mit Humor und achtsamer Präsenz.
+Wenn Du Dir Veränderung wünschst oder vor lauter Optionen nicht weiterkommst, begleite ich Dich gern. Wir arbeiten im Dialog auf Augenhöhe und in Deinem Tempo; Ratschläge bringe ich keine mit. Stattdessen schauen wir gemeinsam, welche Muster Dir im Weg stehen und wie Du wieder Zugang zu Deinen Ressourcen findest.
 
 &nbsp;
 
@@ -45,7 +45,7 @@ Ich begleite dich gerne, wenn du dir Veränderung wünschst oder von Optionen ü
 
 &nbsp;
 
-Schreib mir für ein Kennenlernen:
+Schreib mir, wenn Du mich kennenlernen magst:
 <a href="mailto:" class="crypted-mail" data-name="$email_username$" data-domain="$email_domain$" data-tld="$email_tld$"></a>.
 
 ### 𖦹
